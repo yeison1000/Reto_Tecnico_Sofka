@@ -152,13 +152,6 @@ public class Formulario {
         btnBuscarNaves.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
-            }
-        });
-
-        btnBuscarNaves.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
                 ArrayList<ArrayList> dataTotal = new ArrayList();
 
                 int idNave = Integer.parseInt(crearNaves.elegirNave(slcListaNaves.getSelectedItem()).toString());
